@@ -1,0 +1,62 @@
+
+.bunddle{
+
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+
+}
+.bunddle img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.bunddle img:hover{
+    width: 50%;
+}
+/* .bunddle:hover>
+img:not(:hover) {
+    filter: grayscale(100%)
+} */
+.picture1:hover{
+    box-shadow: 10px 7px 30px rgb(216, 107, 11);
+}
+.picture2:hover{
+    box-shadow: 10px 7px 50px rgb(229, 209, 209);
+}
+.picture3:hover{
+    box-shadow: 10px 7px 50px rgb(25, 176, 196);
+}
+.picture4:hover{
+    box-shadow: 10px 7px 50px rgb(222, 225, 32);
+}
+.picture5:hover{
+    box-shadow: 10px 7px 50px rgb(196, 125, 25);
+}
+.picture6:hover{
+    box-shadow: 10px 7px 50px rgb(224, 28, 218);
+}
+.picture7:hover{
+    box-shadow: 10px 7px 50px rgb(176, 196, 25);
+}
+.picture8:hover{
+    box-shadow: 10px 7px 50px rgb(196, 85, 25);
+}
+.picture9:hover{
+    box-shadow: 10px 7px 50px rgb(77, 81, 81);
+}
+.picture10:hover{
+    box-shadow: 10px 7px 50px rgb(196, 25, 190);
+}
+.grid{
+    display: grid;
+    grid-template-rows: 55px  1fr;
+}

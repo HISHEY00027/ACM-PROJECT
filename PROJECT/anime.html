@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            anime.com...
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet"  href="anime.css">
+        <link rel="stylesheet" href="header.css">
+        <body style="background-color: rgb(255, 255, 255);"></body>
+        <div class="grid">
+            <div id="header">
+            </div>
+            <div class="bunddle">
+                <img class="picture1" src="../PROJECT/images/pic01.jpg">
+                <img class="picture2" src="../PROJECT/images/pic02.jpg">
+                <img class="picture3" src="../PROJECT/images/pic03.jpg">
+                <img class="picture4" src="../PROJECT/images/pic04.jpg">
+                <img class="picture5" src="../PROJECT/images/pic05.jpg">
+                <img class="picture6" src="../PROJECT/images/pic06.jpg">
+                <img class="picture7" src="../PROJECT/images/pic07.jpg">
+                <img class="picture8" src="../PROJECT/images/pic08.jpg">
+                <img class="picture9" src="../PROJECT/images/pic10.jpg">
+                <img class="picture10" src="../PROJECT/images/pic09.jpg">
+            </div>
+        </div>
+        <script>
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                });
+        </script>
+        </body>
+    </head>
+
+</html>

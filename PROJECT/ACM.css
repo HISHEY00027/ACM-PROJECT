@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f3f4f6;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    padding: 10px 0;
+    border-radius: 30PX;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #a61c8f;
+    transition: color 0.3s ease;
+}
+
+.logo a:hover {
+    color: #0056b3;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+.cta-btn {
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.hero {
+    height: 100vh;
+    background: url('../PROJECT/images/wallpaper.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #007BFF;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.about {
+    padding: 60px 20px;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}

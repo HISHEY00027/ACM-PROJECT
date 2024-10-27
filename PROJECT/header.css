@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 2rem; /* Larger logo font */
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.logo a:hover {
+    color: #007BFF; /* Primary color on hover */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 40px; /* Increased space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+    font-weight: 500; /* Slightly bolder text */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Primary color on hover */
+    transform: scale(1.1); /* Slightly enlarges on hover */
+}
+
+.cta .btn {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold; /* Bold button text */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3); /* Button shadow for depth */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .cta {
+        margin-top: 10px;
+    }
+}
